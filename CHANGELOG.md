@@ -13,6 +13,10 @@
 
 ## Master
 
+## 3.3.1
+
+* Fixed Babel 7 breaking because of sourceFileName being defined as null instead of undefined.
+
 ## 3.3.0
 
 * Fix `committer` field issue - missing in Stash API by using commit author instead. [@zdenektopic][]
